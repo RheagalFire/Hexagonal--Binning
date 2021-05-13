@@ -3,3 +3,4 @@ dash
 numpy
 pandas
 python-dotenv
+gunicorn==20.0.4
