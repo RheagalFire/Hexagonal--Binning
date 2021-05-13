@@ -12,9 +12,9 @@ colors = {
 
 fig,fig2,fig3=plots.get_figs()
 
-
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__,external_stylesheets=external_stylesheets)
+server = app.server
 markdown='''
 ### Dash App
 Hexagonal Binning of Carshare Data.    
