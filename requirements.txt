@@ -4,3 +4,5 @@ numpy
 pandas
 python-dotenv
 gunicorn==20.0.4
+geopandas
+Shapely
